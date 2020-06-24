@@ -14,19 +14,44 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+    background-color:black;
+    width: 120px;
+    height: 100%;;
+    margin-bottom: 5px;
+    margin-left: -5px;
+    margin-top: 5px;
+    color: white;
+    
+    border-radius: 5px;
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
 .header{
+    background-color: blue;
+    height: 80px;
+    margin-left: 120px;
+    margin-top: -840px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
     /* pxالطول هنا يجب ان يكون 80 */
 }
 
 .main{
+    background-color: cyan;
+    margin-left: 120px;
+    padding: 10px;
+    height: 100%;
+    margin-bottom: 5px;
 
+
+    border-radius: 5px;
 }
 
 a{
     color: darkgray;
+text-decoration:none
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
@@ -39,10 +64,21 @@ a{
 h1{
     margin: 0;
     margin-right: 5px;
+    display: inline;
+    text-align: center;
 }
 
 h2{
     margin: 0;
     margin-left: 5px;
 }
+
+.social{
+    color: white;
+}
+a:hover{color: white;}
+
+.c{
+    text-align: center;
+display: inline}
 
